@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity{
     {
 
         //This code redirects the from login page to the home page.
-        Intent redirect = new Intent(MainActivity.this, MapsActivity.class);
+        Intent redirect = new Intent(MainActivity.this, SignMapsActivity.class);
         startActivity(redirect);
 
     }
