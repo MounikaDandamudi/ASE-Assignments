@@ -38,7 +38,7 @@
                     <input type="text" ng-model="email" name="field3" id="commute" placeholder="Email or Phone Number">
                     <input type="password" ng-model="password" name="field4" id="tv" placeholder="Password">
                     <input type="password" ng-model="password2" name="field5" id="sleep" placeholder="Confirm Password">
-                    <input type="submit"  ng-hide="myVar" value="Submit Details" ng-click="update(user.first+' '+user.last,email,password)">
+                    <input type="submit"  ng-hide="myVar" value="Submit" ng-click="update(user.first+' '+user.last,email,password)">
 
                     <input type="submit"   ng-hide="otVar" value="Submit" ng-click="otherrest()">
                     <input type="submit"   ng-hide="statVar" value="Submit" ng-click="Get Statistics()">
@@ -47,7 +47,7 @@
 
                 <input type="submit" ng-hide="updateVar" value="Update" ng-click="toggle1()"/>
                 <input type="submit"   ng-hide="delVar" value="Confirm Delete" ng-click="delete()">
-                <input type="submit" ng-hide="deleteVar" value="Delete Account" ng-click="toggle2()"/>
+                <input type="submit" ng-hide="deleteVar" value="Delete" ng-click="toggle2()"/>
             </form>
         </div>
 
