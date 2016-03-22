@@ -6,7 +6,7 @@
     <title>Angular Demo</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
-    <link rel="stylesheet" href="css/Welcomestyle.css">
+
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
 <style>
@@ -44,11 +44,12 @@
                     <input type="submit"   ng-hide="statVar" value="Submit" ng-click="Get Statistics()">
 
                 </fieldset>
-
-                <input type="submit" ng-hide="updateVar" value="Update" ng-click="toggle1()"/>
+            <div></center>
+                <input type="submit" ng-hide="updateVar" value="Update Details" ng-click="toggle1()"/><br><br>
                 <input type="submit"   ng-hide="delVar" value="Confirm Delete" ng-click="delete()">
-                <input type="submit" ng-hide="deleteVar" value="Delete Account" ng-click="toggle2()"/>
+                <input type="submit" ng-hide="deleteVar" value="Delete Account" ng-click="toggle2()"/></div>
             </form>
+
         </div>
 
 
