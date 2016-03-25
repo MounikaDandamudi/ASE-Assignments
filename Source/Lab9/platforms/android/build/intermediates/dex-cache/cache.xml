@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\mounika\Downloads\CS5551-Tutorial9-ImageApp (1)\ImageApp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="97fe2d0809fbe98417b026f5a1595a57f21a79a7">
+        <dex dex="C:\Users\mounika\Downloads\CS5551-Tutorial9-ImageApp (1)\ImageApp\platforms\android\build\intermediates\pre-dexed\debug\classes-d6bad0e7f0c15c59a2db8e788986a80004886398.jar" />
+    </item>
+
+</items>
